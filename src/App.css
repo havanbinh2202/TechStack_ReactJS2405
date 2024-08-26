@@ -28,6 +28,23 @@
   color: #61dafb;
 }
 
+
+/* Định dạng cho footer */
+.footer {
+  background-color: #000; /* Màu đen */
+  color: #fff; /* Màu trắng */
+  text-align: center;
+  padding: 20px 0; /* Khoảng cách trên và dưới */
+}
+.footer .copyright {
+  background-color: #0a0a0a; /* Màu đen đậm hơn */
+  padding: 10px 0;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem; /* Kích thước nhỏ hơn cho thông tin bản quyền */
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
