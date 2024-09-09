@@ -1,9 +1,9 @@
-import Blog from "../UI/Blog";
-import HomeAbout from "../UI/HomeAbout";
-import Tesminal from "../UI/Tesminal";
-import Visit from "../UI/Visit";
-import HomeFeature from "../UI/HomeFeature";
-import OurProduct from "../UI/OurProducts";
+import Blog from "../components/UI/Blog";
+import HomeAbout from "../components/UI/HomeAbout";
+import Tesminal from "../components/UI/Tesminal";
+import Visit from "../components/UI/Visit";
+import HomeFeature from "../components/UI/HomeFeature";
+import OurProduct from "../components/UI/OurProducts";
 
 const Home = () => {
     const about_me = "Besst Organic food in the word";

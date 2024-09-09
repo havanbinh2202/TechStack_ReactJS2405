@@ -1,9 +1,9 @@
-import Blog from "../UI/Blog";
+import Blog from "../components/UI/Blog";
 
 const Blogs = () => {
     return(
         <>
-            <Blog/>
+            <Blogs></Blogs>
         </>
         
     )

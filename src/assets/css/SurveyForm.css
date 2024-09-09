@@ -1,0 +1,39 @@
+
+.survey-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .survey-table th, .survey-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .survey-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .survey-table td input[type="radio"] {
+    margin: 0 auto;
+    display: block;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  

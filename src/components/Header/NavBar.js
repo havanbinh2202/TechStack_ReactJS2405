@@ -17,6 +17,7 @@ const NavBar = ()=> {
                     <Link to="/" className="nav-item nav-link active">Home</Link>
                     <Link to="/about-us" className="nav-item nav-link">About Us</Link>
                     <Link to="/products" className="nav-item nav-link">Products</Link>
+                    <Link to="/fans" className="nav-item nav-link">Fans</Link>
                     <Link to="/contact-us" className="nav-item nav-link">Contact Us</Link>
                 </div>
                 <div className="d-none d-lg-flex ms-2">

@@ -1,7 +1,7 @@
-import Blog from "../UI/Blog";
-import OurProduct from "../UI/OurProducts";
-import Tesminal from "../UI/Tesminal";
-import Visit from "../UI/Visit";
+import Blog from "../components/UI/Blog";
+import OurProduct from "../components/UI/OurProducts";
+import Tesminal from "../components/UI/Tesminal";
+import Visit from "../components/UI/Visit";
 
 const Product = () => {
 
