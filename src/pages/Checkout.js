@@ -68,6 +68,10 @@ const Checkout = () => {
       if (!formData.cvv) {
         validationErrors.cvv = "CVV is required";
       }
+      if (!formData.phone) {
+        validationErrors.phone = "Phone number is required";
+      }
+      
     }
 
     setErrors(validationErrors);
