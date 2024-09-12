@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom"
-import TopLink from "./TopLink"
+import { Link } from "react-router-dom";
+import TopLink from "./TopLink";
 
-const NavBar = ()=> {
+const NavBar = () => {
     return (
-        <div className="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
-            <TopLink/>
+    <div className="container-fluid " data-wow-delay="0.1s">
+        <TopLink/>
         <nav className="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
             <a href="index.html" className="navbar-brand ms-4 ms-lg-0">
                 <h1 className="fw-bold text-primary m-0">F<span className="text-secondary">oo</span>dy</h1>
@@ -16,9 +16,14 @@ const NavBar = ()=> {
                 <div className="navbar-nav ms-auto p-4 p-lg-0">
                     <Link to="/" className="nav-item nav-link active">Home</Link>
                     <Link to="/about-us" className="nav-item nav-link">About Us</Link>
+                    <Link to="/fan" className="nav-item nav-link">Fan</Link>
+                    
                     <Link to="/products" className="nav-item nav-link">Products</Link>
-                    <Link to="/fans" className="nav-item nav-link">Fans</Link>
+                    
                     <Link to="/contact-us" className="nav-item nav-link">Contact Us</Link>
+                    <Link to="/survey" className="nav-item nav-link">Survey</Link>
+                    <Link to="/register" className="nav-item nav-link">Register</Link>
+                    <Link to="/checkout" className="nav-item nav-link">Checkout</Link>
                 </div>
                 <div className="d-none d-lg-flex ms-2">
                     <a className="btn-sm-square bg-white rounded-circle ms-3" href="">
@@ -33,7 +38,8 @@ const NavBar = ()=> {
                 </div>
             </div>
         </nav>
-        </div>
-    )
+    </div>
+        )
 }
+
 export default NavBar;
